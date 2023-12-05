@@ -1,0 +1,16 @@
+img{
+    width: 200px;
+
+}
+.full {width:200px;;
+    border-style: solid;
+   
+  }
+.full:hover{   
+    border-width:0px;
+    box-shadow:0 0 12px 4px;
+    transform: rotate(25deg) scale(1.5);
+    transition-duration: 2s;
+}
+
+

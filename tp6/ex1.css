@@ -1,0 +1,71 @@
+footer{
+    background-color: rgb(225, 220, 237);
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    text-align:center;
+}
+ul,a,li{
+text-decoration: none;
+list-style: none;
+display: inline;}
+nav{
+    background-color: rgb(225, 220, 237);
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input:valid{
+    background-color: rgb(136, 203, 136);
+}
+input:invalid{
+    background-color: pink;
+}
+
+table
+{
+    border:1px lightgray solid;
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+td,th{
+    border-left:1px rgb(225, 220, 237);
+    border-right:1px rgb(225, 220, 237);
+    padding-bottom: 4%;
+    padding-right: 10%;
+}
+tr{
+    border: none;
+}
+
+
+tbody tr:nth-child(odd){
+    background-color:lightgray ;
+    
+}
+section{
+    width:50%
+}
+button{
+    margin-top: 10px;
+    float: right;
+    padding: 5px;
+
+}
+#form{
+    margin-bottom: 2%;
+}
+label{
+    margin-bottom: 2px;
+    display: inline-block;
+	width: 200px;
+
+    
+}
+input{
+    width: 30%;
+    border-radius: 2px;}
